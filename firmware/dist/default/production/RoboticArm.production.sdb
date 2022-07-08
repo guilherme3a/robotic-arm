@@ -1,0 +1,328 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F648A ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\memset.c
+[v _memset memset `(*.4v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"9 C:\Users\Guilherme\Desktop\RoboticArm\core.c
+[v _defineValues defineValues `(v  1 e 1 0 ]
+"16
+[v _convStr convStr `(ui  1 e 2 0 ]
+"27
+[v _autoHome autoHome `(v  1 e 1 0 ]
+"29 C:\Users\Guilherme\Desktop\RoboticArm\main.c
+[v _setup setup `(v  1 e 1 0 ]
+"43
+[v _main main `(v  1 e 1 0 ]
+"7 C:\Users\Guilherme\Desktop\RoboticArm\motorBip.c
+[v _stepBip stepBip `(v  1 e 1 0 ]
+"6 C:\Users\Guilherme\Desktop\RoboticArm\motorUni.c
+[v _stepUni stepUni `(v  1 e 1 0 ]
+"24
+[v _atualizaUni atualizaUni `(v  1 e 1 0 ]
+"5 C:\Users\Guilherme\Desktop\RoboticArm\uart.c
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+"29
+[v _UART_Tx_Char UART_Tx_Char `(v  1 e 1 0 ]
+"42
+[v _UART_Tx_Text UART_Tx_Text `(v  1 e 1 0 ]
+"51
+[v _UART_Rx_Ready UART_Rx_Ready `(uc  1 e 1 0 ]
+"57
+[v _UART_Rx_Char UART_Rx_Char `(uc  1 e 1 0 ]
+"64
+[v _UART_Rx_Text UART_Rx_Text `(v  1 e 1 0 ]
+"167 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f648a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+[s S98 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"184
+[u S107 . 1 `S98 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES107  1 e 1 @5 ]
+"229
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S119 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"246
+[u S128 . 1 `S119 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES128  1 e 1 @6 ]
+[s S228 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"704
+[s S237 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADDEN 1 0 :1:3 
+]
+[u S240 . 1 `S228 1 . 1 0 `S237 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES240  1 e 1 @24 ]
+"754
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"761
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"768
+[v _CMCON CMCON `VEuc  1 e 1 @31 ]
+"908
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"970
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S256 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"987
+[u S265 . 1 `S256 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES265  1 e 1 @134 ]
+[s S206 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"1162
+[u S215 . 1 `S206 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES215  1 e 1 @152 ]
+"1202
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"1520
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"1661
+[v _TRMT TRMT `VEb  1 e 0 @1217 ]
+"25 C:\Users\Guilherme\Desktop\RoboticArm\main.c
+[v _motor motor `ui  1 e 2 0 ]
+[v _steps steps `ui  1 e 2 0 ]
+[v _direction direction `ui  1 e 2 0 ]
+"3 C:\Users\Guilherme\Desktop\RoboticArm\motorUni.c
+[v _stepsU stepsU `[4]uc  1 e 4 0 ]
+"43 C:\Users\Guilherme\Desktop\RoboticArm\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"49
+[v main@buff buff `[10]uc  1 a 10 23 ]
+"79
+} 0
+"6 C:\Users\Guilherme\Desktop\RoboticArm\motorUni.c
+[v _stepUni stepUni `(v  1 e 1 0 ]
+{
+[v stepUni@dir dir `uc  1 a 1 wreg ]
+"8
+[v stepUni@cont cont `i  1 a 2 8 ]
+"6
+[v stepUni@dir dir `uc  1 a 1 wreg ]
+"10
+[v stepUni@dir dir `uc  1 a 1 7 ]
+"21
+} 0
+"24
+[v _atualizaUni atualizaUni `(v  1 e 1 0 ]
+{
+[v atualizaUni@stp stp `*.4uc  1 a 1 wreg ]
+"37
+[v atualizaUni@aux_205 aux `uc  1 a 1 3 ]
+"28
+[v atualizaUni@aux aux `uc  1 a 1 2 ]
+"24
+[v atualizaUni@stp stp `*.4uc  1 a 1 wreg ]
+[v atualizaUni@dir dir `uc  1 p 1 0 ]
+"26
+[v atualizaUni@stp stp `*.4uc  1 a 1 4 ]
+"44
+} 0
+"29 C:\Users\Guilherme\Desktop\RoboticArm\main.c
+[v _setup setup `(v  1 e 1 0 ]
+{
+"39
+} 0
+"5 C:\Users\Guilherme\Desktop\RoboticArm\uart.c
+[v _UART_Init UART_Init `(v  1 e 1 0 ]
+{
+"7
+[v UART_Init@Xbaud Xbaud `ui  1 a 2 16 ]
+"5
+[v UART_Init@Baudrate Baudrate `DCl  1 p 4 0 ]
+"26
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 9 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 13 ]
+"5
+[v ___lldiv@divisor divisor `ul  1 p 4 0 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 4 ]
+"30
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\memset.c
+[v _memset memset `(*.4v  1 e 1 0 ]
+{
+[v memset@p1 p1 `*.4v  1 a 1 wreg ]
+"15
+[v memset@p p `*.4uc  1 a 1 6 ]
+"8
+[v memset@p1 p1 `*.4v  1 a 1 wreg ]
+[v memset@c c `i  1 p 2 0 ]
+[v memset@n n `ui  1 p 2 2 ]
+"18
+[v memset@p1 p1 `*.4v  1 a 1 5 ]
+"22
+} 0
+"9 C:\Users\Guilherme\Desktop\RoboticArm\core.c
+[v _defineValues defineValues `(v  1 e 1 0 ]
+{
+[v defineValues@Buffer Buffer `*.4uc  1 a 1 wreg ]
+[v defineValues@Buffer Buffer `*.4uc  1 a 1 wreg ]
+[v defineValues@m m `*.4ui  1 p 1 4 ]
+[v defineValues@s s `*.4ui  1 p 1 5 ]
+[v defineValues@d d `*.4ui  1 p 1 6 ]
+"11
+[v defineValues@Buffer Buffer `*.4uc  1 a 1 12 ]
+"14
+} 0
+"16
+[v _convStr convStr `(ui  1 e 2 0 ]
+{
+[v convStr@vec vec `*.4DCuc  1 a 1 wreg ]
+"18
+[v convStr@conv conv `ui  1 a 2 0 ]
+"19
+[v convStr@i i `uc  1 a 1 2 ]
+"16
+[v convStr@vec vec `*.4DCuc  1 a 1 wreg ]
+[v convStr@len len `uc  1 p 1 6 ]
+"21
+[v convStr@vec vec `*.4DCuc  1 a 1 3 ]
+"25
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 1 ]
+"15
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"27 C:\Users\Guilherme\Desktop\RoboticArm\core.c
+[v _autoHome autoHome `(v  1 e 1 0 ]
+{
+"52
+} 0
+"7 C:\Users\Guilherme\Desktop\RoboticArm\motorBip.c
+[v _stepBip stepBip `(v  1 e 1 0 ]
+{
+[v stepBip@motor motor `uc  1 a 1 wreg ]
+"14
+[v stepBip@aux aux `uc  1 a 1 6 ]
+[v stepBip@total total `uc  1 a 1 4 ]
+"7
+[v stepBip@motor motor `uc  1 a 1 wreg ]
+[v stepBip@n_steps n_steps `uc  1 p 1 0 ]
+[v stepBip@dir dir `uc  1 p 1 1 ]
+"11
+[v stepBip@stepsA stepsA `DC[8]uc  1 s 8 stepsA ]
+"12
+[v stepBip@stepsH stepsH `DC[8]uc  1 s 8 stepsH ]
+"15
+[v stepBip@lastB lastB `uc  1 s 1 lastB ]
+"14
+[v stepBip@motor motor `uc  1 a 1 5 ]
+"82
+} 0
+"42 C:\Users\Guilherme\Desktop\RoboticArm\uart.c
+[v _UART_Tx_Text UART_Tx_Text `(v  1 e 1 0 ]
+{
+[v UART_Tx_Text@Buffer Buffer `*.24DCuc  1 a 1 wreg ]
+"44
+[v UART_Tx_Text@i i `i  1 a 2 1 ]
+"42
+[v UART_Tx_Text@Buffer Buffer `*.24DCuc  1 a 1 wreg ]
+"46
+[v UART_Tx_Text@Buffer Buffer `*.24DCuc  1 a 1 3 ]
+"48
+} 0
+"29
+[v _UART_Tx_Char UART_Tx_Char `(v  1 e 1 0 ]
+{
+[v UART_Tx_Char@data data `uc  1 a 1 wreg ]
+[v UART_Tx_Char@data data `uc  1 a 1 wreg ]
+[v UART_Tx_Char@data data `uc  1 a 1 0 ]
+"33
+} 0
+"64
+[v _UART_Rx_Text UART_Rx_Text `(v  1 e 1 0 ]
+{
+[v UART_Rx_Text@Buffer Buffer `*.4uc  1 a 1 wreg ]
+"66
+[v UART_Rx_Text@ch ch `uc  1 a 1 4 ]
+"67
+[v UART_Rx_Text@len len `uc  1 a 1 3 ]
+"64
+[v UART_Rx_Text@Buffer Buffer `*.4uc  1 a 1 wreg ]
+"67
+[v UART_Rx_Text@Buffer Buffer `*.4uc  1 a 1 2 ]
+"89
+} 0
+"57
+[v _UART_Rx_Char UART_Rx_Char `(uc  1 e 1 0 ]
+{
+"61
+} 0
+"51
+[v _UART_Rx_Ready UART_Rx_Ready `(uc  1 e 1 0 ]
+{
+"54
+} 0
